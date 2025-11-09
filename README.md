@@ -1,33 +1,22 @@
-# mhmdxsadk/homebrew-tools
+# Homebrew Tools
 
-A personal Homebrew tap containing lightweight command-line tools and utilities.
+Lightweight command-line utilities available through Homebrew.
 
 ## Projects
 
-| Tool Name | Description                                                |
-| --------- | ---------------------------------------------------------- |
-| `rnmr`    | Rename files and directories quickly from the command line |
-| `tinypdf` | Compress PDF files using Ghostscript _(coming soon)_       |
-
----
+| Tool | Description |
+|------|--------------|
+| `rnmr` | Rename files and directories quickly from the command line |
+| `tinypdf` | Compress PDF files using Ghostscript *(coming soon)* |
 
 ## Installation
 
-First, add the tap:
-
 ```bash
 brew tap mhmdxsadk/tools
-```
-
-Then install any tool from this tap:
-
-```bash
 brew install mhmdxsadk/tools/<tool_name>
 ```
 
 Replace `<tool_name>` with any of the names listed in the table above.
-
----
 
 ## License
 
