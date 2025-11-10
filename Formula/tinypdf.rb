@@ -4,7 +4,7 @@ class Tinypdf < Formula
   desc "Lightweight CLI to compress PDF files using Ghostscript"
   homepage "https://github.com/mhmdxsadk/tinypdf"
   url "https://github.com/mhmdxsadk/tinypdf/archive/refs/tags/v1.0.1.tar.gz"
-  sha256 "d2f0d6d329ac98e8378939daa714c6472d2df8506285766b85f8019ceb1dbd9c"
+  sha256 "51db3b8c6c19094892a52f9da4f51c11989a56c1546c9d24a8d588ffcb7b2c57"
   license "MIT"
 
   depends_on "python@3.12"
