@@ -9,6 +9,7 @@ class Rnmr < Formula
 
   bottle do
     root_url "https://github.com/mhmdxsadk/homebrew-tools/releases/download/rnmr-1.0.6"
+    rebuild 1
     sha256 cellar: :any_skip_relocation, arm64_sequoia: "83690d92ddbf24e6b60c79d192512b5f1f751dcfb927132d738d584ebd3a0559"
   end
 
