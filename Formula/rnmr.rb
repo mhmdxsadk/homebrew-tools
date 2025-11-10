@@ -7,6 +7,11 @@ class Rnmr < Formula
   sha256 "a80f916b3d3c8bd74a3d484b37b337b61b59d37c017ce42d5ff6b497cfe8c934"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/mhmdxsadk/homebrew-tools/releases/download/rnmr-1.0.6"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "83690d92ddbf24e6b60c79d192512b5f1f751dcfb927132d738d584ebd3a0559"
+  end
+
   depends_on "python@3.12"
 
   resource "click" do
