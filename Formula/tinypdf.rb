@@ -7,6 +7,12 @@ class Tinypdf < Formula
   sha256 "51db3b8c6c19094892a52f9da4f51c11989a56c1546c9d24a8d588ffcb7b2c57"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/mhmdxsadk/homebrew-tools/releases/download/tinypdf-1.0.1"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "fdc9598889e01792006304a63c8c2059442b9f040744db969088c4f9bac41d97"
+  end
+
   depends_on "python@3.12"
   depends_on "ghostscript"
 
