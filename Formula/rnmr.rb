@@ -3,8 +3,8 @@ class Rnmr < Formula
 
   desc "Lightweight command-line tool for renaming files and directories"
   homepage "https://github.com/mhmdxsadk/homebrew-rnmr"
-  url "https://github.com/mhmdxsadk/homebrew-rnmr/archive/refs/tags/v1.0.5.tar.gz"
-  sha256 "a9799cdcf31ec4cd770d201ff01717cc04919c68f6efdfe0b2e5e67b938bf544"
+  url "https://github.com/mhmdxsadk/homebrew-rnmr/archive/refs/tags/v1.0.6.tar.gz"
+  sha256 "a80f916b3d3c8bd74a3d484b37b337b61b59d37c017ce42d5ff6b497cfe8c934"
   license "MIT"
 
   depends_on "python@3.12"
