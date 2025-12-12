@@ -7,7 +7,8 @@ Lightweight command-line utilities available through Homebrew.
 | Tool                                              | Description                                                |
 | ------------------------------------------------- | ---------------------------------------------------------- |
 | [`rnmr`](https://github.com/mhmdxsadk/rnmr)       | Rename files and directories quickly from the command line |
-| [`tinypdf`](https://github.com/mhmdxsadk/tinypdf) | Compress PDF files using Ghostscript       |
+| [`tinypdf`](https://github.com/mhmdxsadk/tinypdf) | Compress PDF files using Ghostscript                       |
+| [`buu`](https://github.com/mhmdxsadk/buu)         | Regular Homebrew maintinance in one command.               |
 
 ## Installation
 
