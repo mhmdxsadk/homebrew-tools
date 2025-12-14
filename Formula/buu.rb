@@ -7,7 +7,7 @@ class Buu < Formula
 
   bottle do
     root_url "https://github.com/mhmdxsadk/homebrew-tools/releases/download/buu-1.0.2"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "5a8b11997c42eba5f48aaf859611f9b46da414262bd024309e576b469b0dcc5d"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "9861ab5e4cf6d26ff39010174a79dd67f5134ac3e2766e0fbc2cbbd1f0fd6e6d"
   end
 
   depends_on "rust" => :build
