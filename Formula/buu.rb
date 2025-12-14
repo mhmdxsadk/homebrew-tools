@@ -6,8 +6,8 @@ class Buu < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/mhmdxsadk/tools/releases/download/buu-1.0.1"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "e27b841f05f9edb001da17f531876ceb3e35d4125c38afd11856069455d3727e"
+    root_url "https://github.com/mhmdxsadk/tools/releases/download/buu-1.0.2"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "5a8b11997c42eba5f48aaf859611f9b46da414262bd024309e576b469b0dcc5d"
   end
 
   depends_on "rust" => :build
