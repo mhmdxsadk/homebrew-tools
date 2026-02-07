@@ -6,9 +6,9 @@ class Buu < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/mhmdxsadk/homebrew-tools/releases/download/buu-1.0.2"
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "9861ab5e4cf6d26ff39010174a79dd67f5134ac3e2766e0fbc2cbbd1f0fd6e6d"
+    root_url "https://github.com/mhmdxsadk/homebrew-tools/releases/download/buu-1.0.3"
+    rebuild 2
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "68f47f1c1f9a5a2db0372e7bd06858da1661f55a205e390042133a0ee70bf442"
   end
 
   depends_on "rust" => :build
