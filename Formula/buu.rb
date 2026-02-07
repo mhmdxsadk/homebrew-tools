@@ -2,7 +2,7 @@ class Buu < Formula
   desc "Lightweight CLI tool for maintaining Homebrew, written in Rust"
   homepage "https://github.com/mhmdxsadk/buu"
   url "https://github.com/mhmdxsadk/buu/archive/refs/tags/v1.0.3.tar.gz"
-  sha256 "a3c7a46962818f189c137b9e4368abf0c4885a4a32b3d83c39f3a37b5fe8de9f"
+  sha256 "ecf56edfe032a1497ed4b8f7854daf4d9928a1cf6fa96b9a4dbdf5b5089d5c03"
   license "MIT"
 
   bottle do
