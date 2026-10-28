@@ -1,24 +1,36 @@
 class Buu < Formula
   desc "Lightweight CLI tool for maintaining Homebrew, written in Rust"
   homepage "https://github.com/mhmdxsadk/buu"
-  url "https://github.com/mhmdxsadk/buu/archive/refs/tags/v1.0.3.tar.gz"
-  sha256 "ecf56edfe032a1497ed4b8f7854daf4d9928a1cf6fa96b9a4dbdf5b5089d5c03"
+  version "1.1.0"
   license "MIT"
 
-  bottle do
-    root_url "https://github.com/mhmdxsadk/homebrew-tools/releases/download/buu-1.0.3"
-    rebuild 3
-    sha256 cellar: :any_skip_relocation, arm64_tahoe: "a86c02c064df1a15b132aafe458c43a835957e0cf5cc46eac5a27fb423f48cbe"
+  on_macos do
+    on_arm do
+      url "https://github.com/mhmdxsadk/buu/releases/download/v1.1.0/buu_1.1.0_darwin_arm64.tar.gz"
+      sha256 "f4910e8cf6c021d3c54404253750e762cfb943500871d24e77244b3a733d7b9d"
+    end
+    on_intel do
+      url "https://github.com/mhmdxsadk/buu/releases/download/v1.1.0/buu_1.1.0_darwin_amd64.tar.gz"
+      sha256 "941cfa49357ac29f4b718c1ae99a3d80a740168929b2824d4d71b4dfe5285605"
+    end
   end
 
-  depends_on "rust" => :build
+  on_linux do
+    on_arm do
+      url "https://github.com/mhmdxsadk/buu/releases/download/v1.1.0/buu_1.1.0_linux_arm64.tar.gz"
+      sha256 "94d6a3fa506261be759df26b28b779bd64131b2446dc34c1f172e7043fb3296f"
+    end
+    on_intel do
+      url "https://github.com/mhmdxsadk/buu/releases/download/v1.1.0/buu_1.1.0_linux_amd64.tar.gz"
+      sha256 "42da7c400f016e30b067d26804992de543fb9851f1e069137453cccf4146e90f"
+    end
+  end
 
   def install
-    system "cargo", "build", "--release"
-    bin.install "target/release/buu"
+    bin.install "buu"
   end
 
   test do
-    system "#{bin}/buu", "--version"
+    assert_match version.to_s, shell_output("#{bin}/buu --version")
   end
 end
