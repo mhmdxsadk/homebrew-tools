@@ -1,28 +1,28 @@
 class Buu < Formula
   desc "Lightweight CLI tool for maintaining Homebrew, written in Rust"
   homepage "https://github.com/mhmdxsadk/buu"
-  version "1.1.1"
+  version "1.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mhmdxsadk/buu/releases/download/v1.1.1/buu_1.1.1_darwin_arm64.tar.gz"
-      sha256 "7c432ceb0fdba6a77a3fb5a2173f2cbea7f852dac81722dafb526892744f5d50"
+      url "https://github.com/mhmdxsadk/buu/releases/download/v1.1.2/buu_1.1.2_darwin_arm64.tar.gz"
+      sha256 "88605fca4f5fff0646962db4745d6d843566cb77f34af5938611be30286766b7"
     end
     on_intel do
-      url "https://github.com/mhmdxsadk/buu/releases/download/v1.1.1/buu_1.1.1_darwin_amd64.tar.gz"
-      sha256 "9b63972b366a400ba7e257d94e12d2fc46dd64da7e925eaad84ab127cc4dbf8f"
+      url "https://github.com/mhmdxsadk/buu/releases/download/v1.1.2/buu_1.1.2_darwin_amd64.tar.gz"
+      sha256 "a0334e7ad17015220e331583bb28eec6f2a85528e2ea3ce50c0c8d47533b0155"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mhmdxsadk/buu/releases/download/v1.1.1/buu_1.1.1_linux_arm64.tar.gz"
-      sha256 "2dbf18f538d59d38ed391ae4327aec565d1b49ee8e22e95c1fb04bedb68fcbcc"
+      url "https://github.com/mhmdxsadk/buu/releases/download/v1.1.2/buu_1.1.2_linux_arm64.tar.gz"
+      sha256 "2a53b88f2fd77280fd02d4d35092f46a0441f142e333fad2e5cd85059b3bbe9d"
     end
     on_intel do
-      url "https://github.com/mhmdxsadk/buu/releases/download/v1.1.1/buu_1.1.1_linux_amd64.tar.gz"
-      sha256 "c75672f2cb59327306e9ace080b396ed5e20f139341491450aa99be0605f5cc9"
+      url "https://github.com/mhmdxsadk/buu/releases/download/v1.1.2/buu_1.1.2_linux_amd64.tar.gz"
+      sha256 "e2c02b7b7d25b6a4a730d8d99912162bdd8dd7eed59aa2bc7a57f513ab26b192"
     end
   end
 
