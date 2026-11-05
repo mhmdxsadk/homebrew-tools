@@ -1,8 +1,8 @@
 class Termscribe < Formula
   desc "Copy clean Markdown transcripts of recent shell commands and their output"
   homepage "https://github.com/mhmdxsadk/termscribe"
-  url "https://github.com/mhmdxsadk/termscribe/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "420fec8d61fcbbf836b5bc7b9e5a71451fe20c77a7446be24d3be82f2a430c34"
+  url "https://github.com/mhmdxsadk/termscribe/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "dc2b4ced365abb9dd8188b0a3c13726bfbfb2a9b77d7f5f2e115e05cd0694bf6"
   license "MIT"
 
   depends_on "rust" => :build
@@ -14,9 +14,9 @@ class Termscribe < Formula
 
   def caveats
     <<~EOS
-      Run this once to add the shell integration to ~/.zshrc:
+      Run this once to make Ghostty start termscribe:
         termscribe setup
-      Then start a new terminal session.
+      Then reload the Ghostty config (Cmd+Shift+,) and open a new tab.
     EOS
   end
 
