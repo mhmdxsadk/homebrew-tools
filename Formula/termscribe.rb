@@ -1,8 +1,8 @@
 class Termscribe < Formula
   desc "Copy clean Markdown transcripts of recent shell commands and their output"
   homepage "https://github.com/mhmdxsadk/termscribe"
-  url "https://github.com/mhmdxsadk/termscribe/archive/refs/tags/v0.2.3.tar.gz"
-  sha256 "22441cc35a3d8485af822d6d9670f84860f4f836414ceb4ec5615a62713de6a7"
+  url "https://github.com/mhmdxsadk/termscribe/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "3fec3cab1faf2bc37c68e885b9948c78041e1ac053955741cb4af96e45f630f3"
   license "MIT"
 
   depends_on "rust" => :build
